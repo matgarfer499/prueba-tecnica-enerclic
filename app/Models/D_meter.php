@@ -5,13 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Dmeter extends Model
+class D_meter extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'datatime',
         'power',
-        'energy'
+        'power2',
+        'energy',
+        'energy2'
     ];
 }

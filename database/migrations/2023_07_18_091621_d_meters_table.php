@@ -13,9 +13,11 @@ return new class extends Migration
     {
         Schema::create('d_meters', function (Blueprint $table) {
             $table->id();
-            $table->timestamp('datatime');
+            $table->datetime('datatime');
             $table->float('power')->nullable();
+            $table->float('power2')->nullable();
             $table->float('energy');
+            $table->float('energy2');
         });
     }
 
