@@ -16,7 +16,7 @@ Para la realización de esta prueba he usado el framework Laravel
 
 4. Cambiar el nombre del archivo ".env.example" por ".env"
 
-5. Dentro de este archivo estos datos por los necesarios:
+5. Dentro de este archivo cambiar estos datos por los necesarios:
 ```
     DB_CONNECTION=mysql
     DB_HOST= (HOST)
