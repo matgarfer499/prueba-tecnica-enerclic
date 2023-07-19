@@ -11,9 +11,8 @@ class D_meter extends Model
 
     protected $fillable = [
         'datatime',
+        'contador',
         'power',
-        'power2',
         'energy',
-        'energy2'
     ];
 }

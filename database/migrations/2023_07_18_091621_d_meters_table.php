@@ -14,10 +14,9 @@ return new class extends Migration
         Schema::create('d_meters', function (Blueprint $table) {
             $table->id();
             $table->datetime('datatime');
+            $table->enum('contador', ['contador1', 'contador2']);
             $table->float('power')->nullable();
-            $table->float('power2')->nullable();
             $table->float('energy');
-            $table->float('energy2');
         });
     }
 
